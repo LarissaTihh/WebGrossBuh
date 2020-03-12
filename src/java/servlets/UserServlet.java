@@ -103,7 +103,7 @@ public class UserServlet extends HttpServlet {
                         + company.getName()
                         + " " + company.getForm()
                 );
-                request.getRequestDispatcher("/index.jsp")
+                request.getRequestDispatcher("/index1.jsp")
                         .forward(request, response);
                 break;
             case "/showPaymentAccount":

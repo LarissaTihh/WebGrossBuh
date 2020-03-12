@@ -94,7 +94,7 @@ public class LoginServlet extends HttpServlet {
                 HttpSession session = request.getSession(true);
                 session.setAttribute("user", user);
                 request.setAttribute("info", "Привет, " + login + "!");
-                request.getRequestDispatcher("/index.jsp")
+                request.getRequestDispatcher("/index1.jsp")
                         .forward(request, response);
                 break;
 
@@ -104,7 +104,7 @@ public class LoginServlet extends HttpServlet {
                     session.invalidate();
                 }
                 request.setAttribute("info", "Вы вышли");
-                request.getRequestDispatcher("/index.jsp")
+                request.getRequestDispatcher("/index1.jsp")
                         .forward(request, response);
                 break;
 
@@ -154,7 +154,7 @@ public class LoginServlet extends HttpServlet {
                 }
 
                 request.setAttribute("info", "Компания зарегистрирована");
-                request.getRequestDispatcher("/index.jsp")
+                request.getRequestDispatcher("/index1.jsp")
                         .forward(request, response);
 
                 break;

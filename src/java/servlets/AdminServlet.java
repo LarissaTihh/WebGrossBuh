@@ -33,13 +33,13 @@ import sessions.UserFacade;
 public class AdminServlet extends HttpServlet {
 
     @EJB
-    AccountFacade accountFacade;
+    private AccountFacade accountFacade;
     @EJB
-    CompanyFacade companyFacade;
+    private CompanyFacade companyFacade;
     @EJB
-    HistoryFacade historyFacade;
+    private HistoryFacade historyFacade;
     @EJB
-    UserFacade userFacade;
+    private UserFacade userFacade;
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
@@ -89,15 +89,15 @@ public class AdminServlet extends HttpServlet {
                 String month = request.getParameter("month");
                 String total = request.getParameter("total");
                 Account account = new Account(Integer.parseInt(number), title, author, Integer.parseInt(year), month, Integer.parseInt(total));
-                accountFacade.create(account);
+                getAccountFacade().create(account);
                 request.setAttribute("info", "счёт создан");
                 request.setAttribute("account", account);
-                request.getRequestDispatcher("/index.jsp")
+                request.getRequestDispatcher("/index1.jsp")
                         .forward(request, response);
                 break;
 
             case "/listCompanies":
-                List<Company> listCompanies = companyFacade.findAll();
+                List<Company> listCompanies = getCompanyFacade().findAll();
                 request.setAttribute("listCompanies", listCompanies);
                 request.getRequestDispatcher("/listCompanies.jsp")
                         .forward(request, response);
@@ -145,4 +145,60 @@ public class AdminServlet extends HttpServlet {
     public String getServletInfo() {
         return "Short description";
     }// </editor-fold>
+
+    /**
+     * @return the userFacade
+     */
+    public UserFacade getUserFacade() {
+        return userFacade;
+    }
+
+    /**
+     * @param userFacade the userFacade to set
+     */
+    public void setUserFacade(UserFacade userFacade) {
+        this.userFacade = userFacade;
+    }
+
+    /**
+     * @return the historyFacade
+     */
+    public HistoryFacade getHistoryFacade() {
+        return historyFacade;
+    }
+
+    /**
+     * @param historyFacade the historyFacade to set
+     */
+    public void setHistoryFacade(HistoryFacade historyFacade) {
+        this.historyFacade = historyFacade;
+    }
+
+    /**
+     * @return the companyFacade
+     */
+    public CompanyFacade getCompanyFacade() {
+        return companyFacade;
+    }
+
+    /**
+     * @param companyFacade the companyFacade to set
+     */
+    public void setCompanyFacade(CompanyFacade companyFacade) {
+        this.companyFacade = companyFacade;
+    }
+
+    /**
+     * @return the accountFacade
+     */
+    public AccountFacade getAccountFacade() {
+        return accountFacade;
+    }
+
+    /**
+     * @param accountFacade the accountFacade to set
+     */
+    public void setAccountFacade(AccountFacade accountFacade) {
+        this.accountFacade = accountFacade;
+    }
 }

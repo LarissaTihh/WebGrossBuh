@@ -52,4 +52,8 @@ public class EncryptPass {
             return null;
         }
     }
+
+    public EncryptPass getEncryptPass(EncryptPass password, String salts) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }
