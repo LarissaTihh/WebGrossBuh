@@ -183,9 +183,9 @@
             </div>
         </div>
         </div>
+</section>
 
-
-        <footer class="fixed-bottom">
+        <footer>
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-12 col-md-4">
@@ -199,22 +199,22 @@
                             <li class="nav-item">
                                 <!--<a class="nav-link" href="#"><img src="https://img.icons8.com/color/48/000000/facebook.png"></a>-->
                                 <!--<a class="nav-link" href="#"><img src="https://img.icons8.com/windows/48/000000/facebook.png"></a>-->
-                                <a class="nav-link" href="https://www.facebook.com/"><img src="img/facebook.png" alt="..."/></a>
+                                <a class="nav-link" href="https://www.facebook.com/"><img src="img/facebook.png" alt=""/></a>
 
                             </li>
                             <li class="nav-item">
                                 <!--<a class="nav-link" href="https://vk.com/"><img src="https://img.icons8.com/windows/48/000000/vk-com.png"></a>-->
                                 <!--<a class="nav-link" href="#"><img src="https://img.icons8.com/color/48/000000/vk-com.png"></a>-->
-                                <a class="nav-link" href="https://vk.com/"><img src="img/vk-com.png" alt="..."/></a>
+                                <a class="nav-link" href="https://vk.com/"><img src="img/vk-com.png" alt=""/></a>
                             </li>
                             <li class="nav-item">
                                 <!--<a class="nav-link" href="#"><img src="https://img.icons8.com/color/48/000000/odnoklassniki.png"></a>-->
                                 <!--<a class="nav-link" href="#"><img src="https://img.icons8.com/ios/48/000000/odnoklassniki.png"></a>-->
-                                <a class="nav-link" href="https://ok.ru/profile/129055386138"><img src="img/odnoklassniki.png" alt="..."/></a>
+                                <a class="nav-link" href="https://ok.ru/profile/129055386138"><img src="img/odnoklassniki.png" alt=""/></a>
                             </li>
                             <li class="nav-item">
                                 <!--<a class="nav-link" href="#"><img src="https://img.icons8.com/windows/48/000000/instagram-new.png"></a>-->
-                                <a class="nav-link" href="https://www.instagram.com/"><img src="img/instagram-new.png" alt="..."/></a>
+                                <a class="nav-link" href="https://www.instagram.com/"><img src="img/instagram-new.png" alt=""/></a>
                             </li>
                         </ul>
                     </div>

@@ -68,8 +68,8 @@
    <a href="showLogin" class="list-group-item list-group-item-action">Вход</a>
                     <a href="newAccount" class="list-group-item list-group-item-action">Добавить счет</a>
                     <a href="listAccounts" class="list-group-item list-group-item-action">Список счетов</a>
-                    <a href="newCompany" class="list-group-item list-group-item-action ">Добавить фирму</a>
-                    <a href="listCompanies" class="list-group-item list-group-item-action ">Список фирм</a>
+                    <a href="newCompany" class="list-group-item list-group-item-action ">Добавить компанию</a>
+                    <a href="listCompanies" class="list-group-item list-group-item-action ">Список компаний</a>
                     <a href="showTakeOnAccount" class="list-group-item list-group-item-action ">Выдать счет</a>
                     <a href="showPaymentAccount" class="list-group-item list-group-item-action ">Оплатить счет</a>
                     <a href="logout" class="list-group-item list-group-item-action ">Выход</a>
@@ -97,7 +97,7 @@
                         <a class="navbar-brand" href="#"><img class="logo" src="img/logo.png" alt=""/></a>
                     </div>
                     <div class="col-12 col-md-4 copy">
-                        SKTVp18  &copy; 2020 <a href="mailto:support@ee.ee">support@ee.ee</a>
+                        SKTVp18  &copy; 2020 <a href="mailto:support@ee.ee">perfectpluss@mail.ru</a>
                     </div>
                     <div class="col-12 col-md-4">
                         <ul class="nav justify-content-center social">

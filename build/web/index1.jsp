@@ -55,18 +55,18 @@
         <section class="page-banner">
             <div class="container">
                 <div class="row">
-                    
+
                     <div class="col-12">
                         <h1>${info}</h1>
                     </div>
                 </div>
             </div>
         </section>
-        
+
         <div class="container">
             <div class="row align-items-center">
                 <div class="btn-group-vertical">
-   <a href="showLogin" class="list-group-item list-group-item-action">Вход</a>
+                    <a href="showLogin" class="list-group-item list-group-item-action  ">Вход</a>
                     <a href="newAccount" class="list-group-item list-group-item-action">Добавить счет</a>
                     <a href="listAccounts" class="list-group-item list-group-item-action">Список счетов</a>
                     <a href="newCompany" class="list-group-item list-group-item-action ">Добавить фирму</a>
@@ -77,17 +77,18 @@
                     <br>
                     <br>
                 </div>
-                <div class="col-12 col-md-4 ml-auto">
-                    
-                </div>
 
-                <div class="col-12 col-md-4 ml-auto">
-                    
-                   
-                </div>
+                <div class="col-12 col-md-4 ml-auto">          
+
+                </div>  
             </div>
-        </div>  
-        
+
+
+            <div class="col-12 col-md-4 ml-auto">
+
+
+            </div>
+        </div>
         <footer>
             <div class="container">
                 <div class="row align-items-center">
