@@ -68,19 +68,19 @@
                     <div class="col-md-6">
                         <div class="row">
                             <div class="col-12">
-                                <img class="rounded" src="img/i2_2.jpg" alt="..."/> 
+                                <img class="rounded" src="img/i2_1.jpg" alt="..."/> 
+                                
                             </div>
                             <div class="col-12">
                                 <div class="row mt-5">
                                     <div class="col-6">
 
                                         <a data-toggle="modal" data-target="#exampleModalCenter">
-                                            <img src="img/diplom1.png" alt=""/>
+                                           
+                                            <img src="img/diplome.jpg" alt=""/>
                                         </a>
                                     </div>
-                                    <div class="col-6">
-                                        <img src="img/diplom2.jpg" alt=""/>
-                                    </div>
+                                   
                                 </div> 
                             </div>
                         </div>
@@ -88,7 +88,8 @@
                     </div>
                     <div class="col-md-6">
                         <h2>Коротко о себе</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, quasi sed obcaecati quae cumque. Aliquam, ratione, eum, illum nam eius placeat vel corporis iusto at nihil suscipit temporibus amet quia unde eaque culpa accusamus nemo. Recusandae, beatae adipisci odio necessitatibus atque! Tenetur, voluptas, mollitia repudiandae dolorum animi accusantium consectetur dolor itaque asperiores nesciunt et voluptate a ducimus tempore voluptatum veniam vitae minima aut officiis sapiente saepe ipsam atque dicta cumque doloremque hic optio laboriosam ea blanditiis eos. Repudiandae autem eum error alias. Soluta, sed facilis amet tempora recusandae incidunt nulla quos voluptatem? Esse, aliquam possimus beatae illum a magnam eveniet.</p>
+                        <p>
+Грамотно поставленная бухгалтерия избавит от многих проблем и позволит сконцентрироваться на других аспектах Вашего бизнеса.Мы заинтересованы в долгосрочном и взаимовыгодном сотрудничестве с клиентами,поэтому устанавливаем справедливые цены на свои услуги,используем современное программное обеспечение,максимально корректно и внимательно относимся к проблемам и желаниям клиента,чтим традиции бухгалтерского учёта,стремимся достичь взаимного доверия и наибольшего удовлетворения качеством наших услуг.</p>
 
 
                     </div>
@@ -104,7 +105,7 @@
                         <a class="navbar-brand" href="#"><img class="logo" src="img/logo.png" alt=""/></a>
                     </div>
                     <div class="col-12 col-md-4 copy">
-                        SKTVp18  &copy; 2019 <a href="mailto:support@ee.ee">support@ee.ee</a> 
+                        SKTVp18  &copy; 2020 <a href="mailto:support@ee.ee">perfectpluss@mail.ru</a> 
                     </div>
                     <div class="col-12 col-md-4">
                         <ul class="nav justify-content-center social">

@@ -63,26 +63,35 @@
         </section>
 
         <section class="features">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 col-sm-4 col-md-4 feature-item">
-                        <i class="fa fa-globe" aria-hidden="true"></i>
-                        <div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-4 feature-item mr-10" 
+                 data-aos="fade-down"
+                 data-aos-easing="linear"
+                 data-aos-duration="500">
+                <i class="fa fa-globe" aria-hidden="true"></i>
+                <div>
                             <h3>Находитесь где угодно</h3>
                             <p>Вы можете находиться где угодно, в любой точке мира.</p>
                         </div>
 
                     </div>
-                    <div class="col-12 col-sm-4 col-md-4 feature-item">
-                        <i class="fa fa-money" aria-hidden="true"></i>
-                        <div>
+                     <div class="col-12 col-sm-4 feature-item mx-10" 
+                 data-aos="fade-down"
+                 data-aos-easing="linear"
+                 data-aos-duration="1000">
+                <i class="fa fa-money" aria-hidden="true"></i>
+                <div>
                             <h3>Прозрачная стоимость</h3>
                             <p>Вы не переплачиваете,плата за услуги зависит от количества работы.</p>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-4 col-md-4 feature-item">
-                        <i class="fa fa-handshake-o" aria-hidden="true"></i>
-                        <div>
+                    <div class="col-12 col-sm-4 feature-item ml-10" 
+                 data-aos="fade-down"
+                 data-aos-easing="linear"
+                 data-aos-duration="1500">
+                <i class="fa fa-handshake-o" aria-hidden="true"></i>
+                <div>
                             <h3>Идеальный работник</h3>
                             <p>Вам не нужно нанимать штатного бухгалтера и платить ему зарплату.</p>
                         </div>
@@ -111,7 +120,7 @@
                         <p>1 января 2018 года вступит в силу принятый в 2014 году «Закон о квартирной собственности и квартирных товариществах». Он заменит два действующих сегодня закона: «Закон о квартирной собственности» и «Закон o квартирных товариществах». Таким образом, в одном законе будут урегулированы все правовые вопросы, связанные с квартирной собственностью.
 Согласно новому закону, управление всеми жилыми домами будет производиться в форме отдельного юридического лица – квартирного товарищества. В тех многоквартирных домах, где по состоянию на начало 2018 года собственники квартир не создадут квартирного товарищества, оно будет создано государством.
                          </p>
-                        <a href="services.html#kt" class="btn btn-outline-primary">Подробнее</a>
+                        <a href="services.jsp#kt" class="btn btn-outline-primary">Подробнее</a>
                         
                     </div>
 
@@ -123,7 +132,7 @@
                         <p>
                             В Эстонии существует форма некоммерческого предприятия - Mittetulundusühing или MTÜ (далее по тексту «недоходное предприятие»). Это весьма распространённая форма корпоративного устройства, которая отличается простотой учреждения. Основной задачей подобного предприятия является не получение дохода, а работа и достижение целей в области культуры, здравоохранения, образования, защиты прав граждан или иная деятельность в социально-значимых областях, не сопряженная с получением прибыли, но направленная на достижение общественных благ. Деятельность недоходных предприятий нередко носит благотворительный характер, однако стоит отметить, что не любое недоходное предприятие является благотворительной организацией (90% всех недоходных предприятий в Эстонии — квартирные товарищества), подобный статус присваивается только определённым компаниям. 
                         </p>
-                        <a href="services.html#nko" class="btn btn-outline-primary">Подробнее</a>
+                        <a href="services.jsp#nko" class="btn btn-outline-primary">Подробнее</a>
                     </div>
 
 
@@ -153,10 +162,10 @@
                     <div class="col-12 col-md-6 services-text">
 
                         <p>
-                            18 ноября в Нарвском судебном доме должно было состояться заседание суда по иску муниципального предприятия «Нарва Веси» к квартирному товариществу Вахтра, 2А. Но суд не состоялся, так как 3 ноября председатель правления товарищества Анатолий Еремин подписал с «Нарва Веси» компромиссное соглашение. 
+                            Основное направление деятельности фирмы Perfect pluss -это бухгалтерские услуги для FIE, OÜ, AS, MTÜ. От внесения первичных документов в бухгалтерские регистры до предоставления годовых отчётов с необходимым сопровождением. На нашей стороне опыт, своевременность, качество, конфиденциальность, индивидуальный подход и
                         </p>
 
-                        <a href="about.html" class="btn btn-outline-primary">Подробнее</a>
+                        <a href="about.jsp" class="btn btn-outline-primary">Подробнее</a>
                     </div>
                 </div>
             </div>
@@ -169,7 +178,7 @@
                         <a class="navbar-brand" href="#"><img class="logo" src="img/logo.png" alt=""/></a>
                     </div>
                     <div class="col-12 col-md-4 copy">
-                        SKTVp18  &copy; 2019 <a href="mailto:support@ee.ee">support@ee.ee</a>
+                        SKTVp18  &copy; 2020 <a href="mailto:support@ee.ee">perfectpluss@mail.ru</a>
                     </div>
                     <div class="col-12 col-md-4">
                         <ul class="nav justify-content-center social">

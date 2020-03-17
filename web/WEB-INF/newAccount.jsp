@@ -18,7 +18,7 @@
         <title>Новый счёт</title>
     </head>
     <body>
-         <header>
+        <header>
             <nav class="navbar navbar-expand-md navbar-light fixed-top">
                 <div class="container">
                     <a class="navbar-brand" href="#"><img class="logo" src="img/logo.png" alt=""/></a>
@@ -40,26 +40,57 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="contacts.jsp">Контакты</a>
-                                <li class="nav-item">
+                            <li class="nav-item">
                                 <a class="nav-link" href="index1.jsp">Вход</a>
                             </li>
-                  
+
                         </ul>
                     </div>
                 </div>
             </nav>
         </header>
-        <h1>Создать счёт</h1>
-        <form action="addAccount" method="POST">
-            Номер счёта: <input type="text" name="number"><br><br>
-            Название счёта: <input type="text" name="title"><br><br>
-            Кто выставил счёт: <input type="text" name="author"><br><br>
-            Год: <input type="text" name="year"><br><br>
-            Месяц: <input type="text" name="month"><br><br>
-            Итого: <input type="text" name="total"><br><br>
-            <input type="submit" value="Создать счёт"><br>
-        </form>
-<footer>
+        <section class="page-banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1>Создание счёта</h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+       
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="btn-group-vertical">
+
+                    <a href="showLogin" class="list-group-item list-group-item-action">Вход</a>
+                    <a href="newAccount" class="list-group-item list-group-item-action">Добавить счет</a>
+                    <a href="listAccounts" class="list-group-item list-group-item-action">Список счетов</a>
+                    <a href="newCompany" class="list-group-item list-group-item-action ">Добавить фирму</a>
+                    <a href="listCompanies" class="list-group-item list-group-item-action ">Список фирм</a>
+                    <a href="showTakeOnAccount" class="list-group-item list-group-item-action ">Выдать счет</a>
+                    <a href="showPaymentAccount" class="list-group-item list-group-item-action ">Оплатить счет</a>
+                    <a href="logout" class="list-group-item list-group-item-action ">Выход</a>
+                    <br>
+                    <br>
+                </div>
+
+                <div class="col-12 col-md-4 ml-auto">
+                    <form action="addAccount" method="POST">
+                        Номер счёта: <input type="text" name="number"><br>
+                        Название счёта: <input type="text" name="title"><br>
+                        Кто выставил счёт: <input type="text" name="author"><br>
+                        Год: <input type="text" name="year"><br>
+                        Месяц: <input type="text" name="month"><br>
+                        Итого: <input type="text" name="total"><br>
+                         <button type="submit" class="btn btn-primary">Создать счёт</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>  
+        
+        <footer>
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-12 col-md-4">
@@ -96,7 +127,7 @@
             </div>
 
         </footer>
-        
+
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>

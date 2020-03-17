@@ -9,7 +9,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
         <link href="css/style.css" rel="stylesheet">
@@ -18,7 +18,7 @@
         <title>Новая компания</title>
     </head>
     <body>
-         <header>
+        <header>
             <nav class="navbar navbar-expand-md navbar-light fixed-top">
                 <div class="container">
                     <a class="navbar-brand" href="#"><img class="logo" src="img/logo.png" alt=""/></a>
@@ -40,26 +40,58 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="contacts.jsp">Контакты</a>
-                                <li class="nav-item">
+                            <li class="nav-item">
                                 <a class="nav-link" href="index1.jsp">Вход</a>
                             </li>
-                  
+
                         </ul>
                     </div>
                 </div>
             </nav>
         </header>
-        <h1>Зарегистрироваться</h1>
-        <form action="addCompany" method="POST">
-            Название компании : <input type="text" name="name"><br><br>
-            Форма управления : <input type="text" name="form"><br><br>
-            Адрес : <input type="text" name="address"><br><br>
-            email: <input type="text" name="email"><br><br>  
-            Логин : <input type="text" name="login"><br><br>
-            Пароль : <input type="password" name="password"><br><br>
-            
-            <input type="submit" value="Создать компанию"><br>
-        </form>
+        <section class="page-banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1>Регистрация</h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="btn-group-vertical">
+
+                    <a href="showLogin" class="list-group-item list-group-item-action">Вход</a>
+                    <a href="newAccount" class="list-group-item list-group-item-action">Добавить счет</a>
+                    <a href="listAccounts" class="list-group-item list-group-item-action">Список счетов</a>
+                    <a href="newCompany" class="list-group-item list-group-item-action ">Добавить фирму</a>
+                    <a href="listCompanies" class="list-group-item list-group-item-action ">Список фирм</a>
+                    <a href="showTakeOnAccount" class="list-group-item list-group-item-action ">Выдать счет</a>
+                    <a href="showPaymentAccount" class="list-group-item list-group-item-action ">Оплатить счет</a>
+                    <a href="logout" class="list-group-item list-group-item-action ">Выход</a>
+                    <br>
+                    <br>
+                </div>
+
+                <div class="col-12 col-md-4 ml-auto">
+                    <form action="addCompany" method="POST">
+                        Название компании : <input type="text" name="name"><br>
+                        Форма управления : <input type="text" name="form"><br>
+                        Адрес : <input type="text" name="address"><br>
+                        email: <input type="text" name="email"><br> 
+                        Логин : <input type="text" name="login"><br>
+                        Пароль : <input type="password" name="password"><br>
+
+                        <button type="submit" class="btn btn-primary">Создать компанию</button>
+                    </form>
+
+
+                </div>
+            </div>
+        </div>  
+
+        
         <footer>
             <div class="container">
                 <div class="row align-items-center">
@@ -97,7 +129,7 @@
             </div>
 
         </footer>
-        
+
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>

@@ -30,7 +30,7 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ml-auto">
 
-                            <li class="nav-item">
+                             <li class="nav-item">
                                 <a class="nav-link" href="index.jsp">Главная</a>
                             </li>
                             <li class="nav-item">
@@ -44,7 +44,7 @@
                                 <li class="nav-item">
                                 <a class="nav-link" href="index1.jsp">Вход</a>
                             </li>
-                      
+                           
                         </ul>
                     </div>
                 </div>
@@ -62,6 +62,13 @@
         </section>
 
         <section class="page contact">
+             <div class="container-fluid">
+                <div class="row">
+                    <div class="col map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2031.9905163919852!2d28.178397316074488!3d59.38318538167774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469437e1ce95069b%3A0xc04b5daf1181eb21!2sKangelaste+9!5e0!3m2!1sru!2see!4v1557915350794!5m2!1sru!2see" width="800" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div> 
+                </div>
+            </div>
             <div class="container">
 
                 <div class="row mb-5">
@@ -105,13 +112,8 @@
 
             </div>
 
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col map">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2031.9905163919852!2d28.178397316074488!3d59.38318538167774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469437e1ce95069b%3A0xc04b5daf1181eb21!2sKangelaste+9!5e0!3m2!1sru!2see!4v1557915350794!5m2!1sru!2see" width="800" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-                    </div> 
-                </div>
-            </div>
+            <
+              
         </section>
 
 
@@ -122,7 +124,7 @@
                         <a class="navbar-brand" href="#"><img class="logo" src="img/logo.png" alt=""/></a>
                     </div>
                     <div class="col-12 col-md-4 copy">
-                        SKTVp18  &copy; 2019 <a href="mailto:support@ee.ee">support@ee.ee</a>
+                        SKTVp18  &copy; 2020 <a href="mailto:support@ee.ee">perfectpluss@mail.ru</a>
                     </div>
                     <div class="col-12 col-md-4">
                         <ul class="nav justify-content-center social">
